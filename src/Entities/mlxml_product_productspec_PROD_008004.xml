@@ -1,0 +1,61 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <DataService version="2.0" xsi:schemaLocation="http://www.tibco.com/cim/services/mastercatalogrecord/wsdl/2.0 schemas/MasterCatalogRecord_Action.xsd" xmlns="http://www.tibco.com/cim/services/mastercatalogrecord/wsdl/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <Transaction>
+            <Response type="Query">
+               <MasterCatalogRecord etype="Entity">
+                  <ExternalKeys>
+                     <Key name="MASTERCATALOGNAME" type="string">PRODUCTSPECIFICATION</Key>
+                     <Key name="PRODUCTID" type="string">PROD_008004</Key>
+                     <Key name="PRODUCTIDEXT" type="string"/>
+                  </ExternalKeys>
+                  <EntityData>
+                     <Attribute name="PRODUCTID" type="string">PROD_008004</Attribute>
+                     <Attribute name="PRODUCT_NAME" type="string">C_Product_2</Attribute>
+                     <Attribute name="PRODUCT_DESC" type="string">C_Product_2</Attribute>
+                     <Attribute name="DISPLAY_NAME" type="string">C_Product_2</Attribute>
+                     <Attribute name="VALID_FROM" type="date"/>
+                     <Attribute name="VALID_TO" type="date"/>
+                     <Attribute name="STATUS" type="string">Active</Attribute>
+                     <Attribute name="CATEGORY" type="string">Voice</Attribute>
+                     <Attribute name="PORTFOLIO" type="string"/>
+                     <Attribute name="PRODUCT_TYPE" type="string"/>
+                     <Attribute name="PRODUCT_LINE_ID" type="string"/>
+                     <Attribute name="IS_PARAMETRIC" type="boolean"/>
+                     <Attribute name="IS_ASSETED" type="boolean"/>
+                     <Attribute name="MIN_SELLABLE_QTY" type="integer"/>
+                     <Attribute name="MAX_SELLABLE_QTY" type="integer"/>
+                     <Attribute name="DEFAULT_SELLABLE_QTY" type="integer"/>
+                     <Attribute name="PRICE_DECIDER" type="boolean"/>
+                     <Attribute name="IS_SYNC_ENABLED" type="boolean"/>
+                     <Attribute name="IS_ACTIVATION_ENABLED" type="boolean"/>
+                     <Attribute name="BILL_STYLE" type="string"/>
+                     <Attribute name="BILLING_INDICATOR" type="boolean"/>
+                     <Attribute name="INFORM_CRM" type="boolean"/>
+                     <Attribute name="WAIT_FOR_RESPONSE" type="boolean"/>
+                     <Attribute name="PRODUCTIDEXT" type="string"/>
+                     <Attribute name="CONTAINS" type="string"/>
+                     <Attribute name="MODDATE" type="timestamp">2017-10-25 15:49:19.27</Attribute>
+                     <Attribute name="MODVERSION" type="integer">1</Attribute>
+                     <Attribute name="MODMEMBERID" type="long">34993</Attribute>
+                     <Attribute name="STATE" type="string">CONFIRMED</Attribute>
+                     <Attribute name="ACTIVE" type="string">Y</Attribute>
+                     <Attribute name="CHECKSUM" type="long">-706313271</Attribute>
+                     <Attribute name="CREATIONDATE" type="timestamp">2017-10-25 15:36:52.94</Attribute>
+                     <Attribute name="PARENTVERSION" type="integer">0</Attribute>
+                     <Attribute name="OWNERID" type="long">67323</Attribute>
+                     <Attribute name="OWNERTYPE" type="integer">21</Attribute>
+                     <Attribute name="LASTCONFIRMEDVERSION" type="integer">1</Attribute>
+                     <MultiValueAttribute name="CUSTOMER_SEGMENT" type="string"/>
+                     <MultiValueAttribute name="CHARGE_TYPE" type="string"/>
+                  </EntityData>
+               </MasterCatalogRecord>
+            </Response>
+            <TransactionResult result="Completed">
+               <SuccessCount>1</SuccessCount>
+               <TotalCount>1</TotalCount>
+            </TransactionResult>
+         </Transaction>
+      </DataService>
+   </soapenv:Body>
+</soapenv:Envelope>

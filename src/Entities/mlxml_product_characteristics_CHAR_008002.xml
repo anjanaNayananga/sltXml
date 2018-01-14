@@ -1,0 +1,48 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <DataService version="2.0" xsi:schemaLocation="http://www.tibco.com/cim/services/mastercatalogrecord/wsdl/2.0 schemas/MasterCatalogRecord_Action.xsd" xmlns="http://www.tibco.com/cim/services/mastercatalogrecord/wsdl/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <Transaction>
+            <Response type="Query">
+               <MasterCatalogRecord etype="Entity">
+                  <ExternalKeys>
+                     <Key name="MASTERCATALOGNAME" type="string">CHARACTERISTICS</Key>
+                     <Key name="PRODUCTID" type="string">CHAR_008002</Key>
+                     <Key name="PRODUCTIDEXT" type="string"/>
+                  </ExternalKeys>
+                  <EntityData>
+                     <Attribute name="PRODUCTID" type="string">CHAR_008002</Attribute>
+                     <Attribute name="CHARACTERISTIC_NAME" type="string">R_Char_1</Attribute>
+                     <Attribute name="IS_MANDATORY" type="boolean">True</Attribute>
+                     <Attribute name="CHARACTERISTIC_UNIT" type="string">TX</Attribute>
+                     <Attribute name="CHARACTERISTIC_TYPE" type="string"/>
+                     <Attribute name="DISPLAY_POSITION" type="integer">1</Attribute>
+                     <Attribute name="SYSTEM_FLAG" type="string"/>
+                     <Attribute name="LOOK_UP_REQUIRED" type="boolean"/>
+                     <Attribute name="CONTAINS" type="string"/>
+                     <Attribute name="PRODUCTIDEXT" type="string"/>
+                     <Attribute name="MODDATE" type="timestamp">2017-10-25 15:49:26.587</Attribute>
+                     <Attribute name="MODVERSION" type="integer">1</Attribute>
+                     <Attribute name="MODMEMBERID" type="long">34993</Attribute>
+                     <Attribute name="STATE" type="string">CONFIRMED</Attribute>
+                     <Attribute name="ACTIVE" type="string">Y</Attribute>
+                     <Attribute name="CHECKSUM" type="long">12821916</Attribute>
+                     <Attribute name="CREATIONDATE" type="timestamp">2017-10-25 15:35:04.723</Attribute>
+                     <Attribute name="PARENTVERSION" type="integer">0</Attribute>
+                     <Attribute name="OWNERID" type="long">67317</Attribute>
+                     <Attribute name="OWNERTYPE" type="integer">21</Attribute>
+                     <Attribute name="LASTCONFIRMEDVERSION" type="integer">1</Attribute>
+                     <MultiValueAttribute name="CHARACTERISTIC_VALUE" type="string">
+                        <Value>Sample</Value>
+                        <Value>Demo</Value>
+                     </MultiValueAttribute>
+                  </EntityData>
+               </MasterCatalogRecord>
+            </Response>
+            <TransactionResult result="Completed">
+               <SuccessCount>1</SuccessCount>
+               <TotalCount>1</TotalCount>
+            </TransactionResult>
+         </Transaction>
+      </DataService>
+   </soapenv:Body>
+</soapenv:Envelope>

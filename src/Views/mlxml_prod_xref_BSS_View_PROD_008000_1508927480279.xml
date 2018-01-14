@@ -1,0 +1,2158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message externalControlNumber="2017-12-08 19:35:42+05:30" externalVersion="2.6" language="en" messageType="Production"
+         mlxmlVersion="2.6" protocol="mlXML" timestamp="1512741944878">
+    <Header>
+        <MessageHeader origin="OriginalSender" role="supplier">
+            <Enterprise>
+                <PartyID>
+                    <PartyName>PRODUCT_XREF</PartyName>
+                    <DBID>36220</DBID>
+                    <ShortName>PRODXREF</ShortName>
+                </PartyID>
+            </Enterprise>
+            <Organization>
+                <PartyID>
+                    <PartyName>PRODUCT_XREF</PartyName>
+                    <DBID>36229</DBID>
+                </PartyID>
+            </Organization>
+            <Member>
+                <PartyID>
+                    <PartyName>admin</PartyName>
+                    <DBID>36524</DBID>
+                </PartyID>
+            </Member>
+            <Credential domain="MartQuestNet">
+                <Identity>admin</Identity>
+            </Credential>
+        </MessageHeader>
+        <MessageHeader origin="Sender" role="Supplier">
+            <Enterprise>
+                <PartyID>
+                    <PartyName>PRODUCT_XREF</PartyName>
+                    <DBID>36220</DBID>
+                    <ShortName>PRODXREF</ShortName>
+                </PartyID>
+            </Enterprise>
+            <Organization>
+                <PartyID>
+                    <PartyName>PRODUCT_XREF</PartyName>
+                    <DBID>36229</DBID>
+                </PartyID>
+            </Organization>
+            <Member>
+                <PartyID>
+                    <PartyName>admin</PartyName>
+                    <DBID>36524</DBID>
+                </PartyID>
+            </Member>
+            <Credential domain="MartQuestNet">
+                <Identity>admin</Identity>
+            </Credential>
+        </MessageHeader>
+        <MessageHeader origin="Receiver" role="Supplier">
+            <Enterprise>
+                <PartyID>
+                    <PartyName>PRODUCT_XREF</PartyName>
+                    <DBID>36220</DBID>
+                    <ShortName>PRODXREF</ShortName>
+                </PartyID>
+            </Enterprise>
+            <Organization>
+                <PartyID>
+                    <PartyName>PRODUCT_XREF</PartyName>
+                    <DBID>36229</DBID>
+                </PartyID>
+            </Organization>
+            <Member>
+                <PartyID>
+                    <PartyName>admin</PartyName>
+                    <DBID>36524</DBID>
+                </PartyID>
+            </Member>
+            <Credential domain="MartQuestNet">
+                <Identity>admin</Identity>
+            </Credential>
+        </MessageHeader>
+    </Header>
+    <Body>
+        <Document subtype="CatEditAdd" type="CatEdit">
+            <BusinessDocument>
+                <CatalogAction>
+                    <CatalogActionHeader>
+                        <ThisDocID>
+                            <DocID>
+                                <IDNumber>77019</IDNumber>
+                                <Agency>
+                                    <Code>
+                                        <CodeType>Agency</CodeType>
+                                        <Value/>
+                                        <Normal>Supplier</Normal>
+                                    </Code>
+                                </Agency>
+                            </DocID>
+                        </ThisDocID>
+                        <Date>
+                            <Code>
+                                <CodeType>DateTime</CodeType>
+                                <Value/>
+                                <Normal>Timestamp</Normal>
+                            </Code>
+                            <DateValue>
+                                <Value>2017-12-08 19:35:42+05:30</Value>
+                            </DateValue>
+                            <TimeZone>
+                                <Value>IST</Value>
+                            </TimeZone>
+                            <Normal>2017-12-08 19:35:42+05:30</Normal>
+                        </Date>
+                        <MasterCatalog>
+                            <RevisionID>
+                                <BaseName>BSS_VIEW</BaseName>
+                                <Version>1</Version>
+                                <DBID>36776</DBID>
+                            </RevisionID>
+                        </MasterCatalog>
+                        <Perspective/>
+                        <Action/>
+                        <Contact/>
+                        <Reference/>
+                        <URL>
+                            <Code>
+                                <CodeType/>
+                                <Value/>
+                                <Normal/>
+                            </Code>
+                            <Value>RecordMaster?action=view&amp;catalogid=36776&amp;catversion=1&amp;prodid=XREF_BSS_001001&amp;idext=&amp;productID=XREF_BSS_001001&amp;productExt=&amp;returl=none&amp;popup=true&amp;canedit=true</Value>
+                            <ShortName/>
+                            <Location/>
+                        </URL>
+                        <Instructions/>
+                        <Extension name="SendForCorrection">
+                            <Value/>
+                        </Extension>
+                        <PackageData messageID=""/>
+                        <CatalogActionHeaderAck>
+                            <AcknowledgmentCode>
+                                <Code>
+                                    <CodeType>AcknowledgmentCode</CodeType>
+                                    <Value/>
+                                    <Normal/>
+                                </Code>
+                            </AcknowledgmentCode>
+                            <Owner>
+                                <PartyID>
+                                    <PartyName/>
+                                    <DBID/>
+                                </PartyID>
+                            </Owner>
+                            <Workitem>
+                                <DBID/>
+                            </Workitem>
+                            <Instructions>
+                                <Code>
+                                    <CodeType>InstructionType</CodeType>
+                                    <Value/>
+                                    <Normal>ReasonCode</Normal>
+                                </Code>
+                                <Description>
+                                    <Long/>
+                                </Description>
+                            </Instructions>
+                        </CatalogActionHeaderAck>
+                    </CatalogActionHeader>
+                    <CatalogActionDetails>
+                        <CatalogItem key="18559">
+                            <LineNumber>1</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_BSS_001001</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18559</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>BSS_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36776</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_BSS_001001</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>1002</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>Prod_Family_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product Family</Value>
+                                </Attribute>
+                                <Attribute name="DS_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <MultiValueAttribute name="FIELD_NAME">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <MultiValueAttribute name="FIELD_VALUE">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_BSS_001001</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18559</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_BSS_001001</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>1002</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>Prod_Family_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product Family</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="DS_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_NAME">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_VALUE">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>HAS_BSS_CHILD</RelationType>
+                                    <RelatedItems count="2">
+                                        <RelatedItem referenceKey="18560"/>
+                                        <RelatedItem referenceKey="18566"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18569">
+                            <LineNumber>2</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_MDM_007003</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18569</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>MDM_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36740</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_MDM_007003</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>R_Product_2</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>PROD_008003</Value>
+                                </Attribute>
+                                <Attribute name="APC_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_MDM_007003</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18569</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_MDM_007003</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>R_Product_2</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>PROD_008003</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="APC_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>MDM_TO_BSS</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18566"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18568">
+                            <LineNumber>3</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_MDM_007004</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18568</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>MDM_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36740</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_MDM_007004</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>C_Product_2</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>PROD_008004</Value>
+                                </Attribute>
+                                <Attribute name="APC_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_MDM_007004</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18568</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_MDM_007004</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>C_Product_2</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>PROD_008004</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="APC_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>MDM_TO_BSS</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18567"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18565">
+                            <LineNumber>4</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_MDM_007000</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18565</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>MDM_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36740</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_MDM_007000</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>R_Product_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>PROD_008000</Value>
+                                </Attribute>
+                                <Attribute name="APC_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_MDM_007000</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18565</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_MDM_007000</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>R_Product_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>PROD_008000</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="APC_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>MDM_TO_BSS</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18560"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18564">
+                            <LineNumber>5</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_MDM_007002</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18564</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>MDM_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36740</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_MDM_007002</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Characteristic</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>R_Char_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>CHAR_008002</Value>
+                                </Attribute>
+                                <Attribute name="APC_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_MDM_007002</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18564</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_MDM_007002</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Characteristic</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>R_Char_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>CHAR_008002</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="APC_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>MDM_TO_BSS</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18563"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18567">
+                            <LineNumber>6</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_BSS_009004</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18567</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>BSS_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36776</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_BSS_009004</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>6004</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>C_Product_2</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="DS_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <MultiValueAttribute name="FIELD_NAME">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <MultiValueAttribute name="FIELD_VALUE">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_BSS_009004</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18567</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_BSS_009004</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>6004</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>C_Product_2</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="DS_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_NAME">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_VALUE">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>BELONGS_TO_BSS_PARENT</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18566"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>BSS_BELONGS_TO_MDM</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18568"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18566">
+                            <LineNumber>7</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_BSS_009003</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18566</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>BSS_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36776</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_BSS_009003</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>6003</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>R_Product_2</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="DS_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <MultiValueAttribute name="FIELD_NAME">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <MultiValueAttribute name="FIELD_VALUE">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_BSS_009003</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18566</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_BSS_009003</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>6003</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>R_Product_2</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="DS_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_NAME">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_VALUE">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>BELONGS_TO_BSS_PARENT</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18559"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>BSS_BELONGS_TO_MDM</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18569"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>HAS_BSS_CHILD</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18567"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18561">
+                            <LineNumber>8</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_BSS_009001</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18561</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>BSS_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36776</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_BSS_009001</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>6001</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>C_Product_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="DS_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <MultiValueAttribute name="FIELD_NAME">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <MultiValueAttribute name="FIELD_VALUE">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_BSS_009001</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18561</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_BSS_009001</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>6001</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>C_Product_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="DS_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_NAME">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_VALUE">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>BELONGS_TO_BSS_PARENT</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18560"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>BSS_BELONGS_TO_MDM</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18562"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18560">
+                            <LineNumber>9</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_BSS_009000</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18560</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>BSS_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36776</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_BSS_009000</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>6000</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>R_Product_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="DS_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <MultiValueAttribute name="FIELD_NAME">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <MultiValueAttribute name="FIELD_VALUE">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_BSS_009000</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18560</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_BSS_009000</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>6000</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>R_Product_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="DS_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_NAME">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_VALUE">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>BELONGS_TO_BSS_PARENT</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18559"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>BSS_BELONGS_TO_MDM</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18565"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>HAS_BSS_CHILD</RelationType>
+                                    <RelatedItems count="2">
+                                        <RelatedItem referenceKey="18561"/>
+                                        <RelatedItem referenceKey="18563"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18563">
+                            <LineNumber>10</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_BSS_009002</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18563</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>BSS_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36776</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_BSS_009002</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>6002</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>R_Char_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Characteristic</Value>
+                                </Attribute>
+                                <Attribute name="DS_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <MultiValueAttribute name="FIELD_NAME">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <MultiValueAttribute name="FIELD_VALUE">
+                                    <ValueList/>
+                                </MultiValueAttribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_BSS_009002</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18563</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_BSS_009002</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>6002</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>R_Char_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Characteristic</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="DS_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_NAME">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <MultiValueAttribute changed="true" name="FIELD_VALUE">
+                                        <ValueList/>
+                                        <OriginalValueList/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </MultiValueAttribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>BELONGS_TO_BSS_PARENT</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18560"/>
+                                    </RelatedItems>
+                                </Relationship>
+                                <Relationship>
+                                    <RelationType>BSS_BELONGS_TO_MDM</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18564"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                        <CatalogItem key="18562">
+                            <LineNumber>11</LineNumber>
+                            <PartNumber>
+                                <GlobalPartNumber>
+                                    <ProdID>
+                                        <IDNumber>XREF_MDM_007001</IDNumber>
+                                        <IDExtension/>
+                                        <OriginalIDVersion>1</OriginalIDVersion>
+                                        <IDVersion>1</IDVersion>
+                                        <Agency>
+                                            <Code>
+                                                <CodeType/>
+                                                <Value/>
+                                                <Normal>SOURCE</Normal>
+                                            </Code>
+                                        </Agency>
+                                        <DBID>18562</DBID>
+                                    </ProdID>
+                                </GlobalPartNumber>
+                            </PartNumber>
+                            <CatalogActionDetailsAck>
+                                <AcknowledgmentCode>
+                                    <Code>
+                                        <CodeType>AcknowledgmentCode</CodeType>
+                                        <Value/>
+                                        <Normal/>
+                                    </Code>
+                                </AcknowledgmentCode>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Value/>
+                                        <Normal>ReasonCode</Normal>
+                                    </Code>
+                                    <Description>
+                                        <Short/>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                                <Instructions>
+                                    <Code>
+                                        <CodeType>InstructionType</CodeType>
+                                        <Normal/>
+                                    </Code>
+                                    <Description>
+                                        <Long/>
+                                    </Description>
+                                </Instructions>
+                            </CatalogActionDetailsAck>
+                            <ActionCode>
+                                <Code>
+                                    <CodeType>CatalogAction</CodeType>
+                                    <Value>AddProduct</Value>
+                                    <Normal>AddProduct</Normal>
+                                </Code>
+                            </ActionCode>
+                            <SubLineItemInfo/>
+                            <UnitPrice/>
+                            <Classifications/>
+                            <PartDescription>
+                                <Description>
+                                    <Short/>
+                                </Description>
+                            </PartDescription>
+                            <MasterCatalog>
+                                <RevisionID>
+                                    <BaseName>MDM_VIEW</BaseName>
+                                    <Version>1</Version>
+                                    <DBID>36740</DBID>
+                                </RevisionID>
+                            </MasterCatalog>
+                            <Contact/>
+                            <Reference/>
+                            <URL/>
+                            <Extension/>
+                            <ItemData>
+                                <Attribute name="PRODUCTID">
+                                    <Value>XREF_MDM_007001</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_TYPE">
+                                    <Value>Product</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_NAME">
+                                    <Value>C_Product_1</Value>
+                                </Attribute>
+                                <Attribute name="ENTITY_ID">
+                                    <Value>PROD_008001</Value>
+                                </Attribute>
+                                <Attribute name="APC_SYNC_ENABLE">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="PRODUCTIDEXT">
+                                    <Value/>
+                                </Attribute>
+                                <Attribute name="CONTAINS">
+                                    <Value/>
+                                </Attribute>
+                            </ItemData>
+                            <ActionLog>
+                                <Action>
+                                    <ActionCode>
+                                        <ActionCodeType>ActionLogCode</ActionCodeType>
+                                        <Normal>RecordDiff</Normal>
+                                    </ActionCode>
+                                    <ReferenceItem>
+                                        <ProdID>
+                                            <IDNumber>XREF_MDM_007001</IDNumber>
+                                            <IDExtension/>
+                                            <IDVersion>N/A</IDVersion>
+                                            <DBID>18562</DBID>
+                                        </ProdID>
+                                    </ReferenceItem>
+                                    <Attribute changed="true" name="PRODUCTID">
+                                        <Value>XREF_MDM_007001</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_TYPE">
+                                        <Value>Product</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_NAME">
+                                        <Value>C_Product_1</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="ENTITY_ID">
+                                        <Value>PROD_008001</Value>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="APC_SYNC_ENABLE">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="Info"/>
+                                        </GroupList>
+                                    </Attribute>
+                                    <Attribute changed="true" name="PRODUCTIDEXT">
+                                        <Value/>
+                                        <OriginalValue/>
+                                        <GroupList>
+                                            <Group name="System"/>
+                                        </GroupList>
+                                    </Attribute>
+                                </Action>
+                            </ActionLog>
+                            <RelationshipData>
+                                <Relationship>
+                                    <RelationType>MDM_TO_BSS</RelationType>
+                                    <RelatedItems count="1">
+                                        <RelatedItem referenceKey="18561"/>
+                                    </RelatedItems>
+                                </Relationship>
+                            </RelationshipData>
+                        </CatalogItem>
+                    </CatalogActionDetails>
+                </CatalogAction>
+            </BusinessDocument>
+            <OriginalDocument/>
+        </Document>
+    </Body>
+    <History>
+        <Event type="StateTransition">
+            <EventID>4810</EventID>
+            <EventValue>Step1</EventValue>
+            <EventDate>2017-12-08 19:35:43+05:30</EventDate>
+            <Addendum name="Key1">ProductAddEdit</Addendum>
+        </Event>
+    </History>
+</Message>
