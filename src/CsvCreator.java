@@ -66,6 +66,11 @@ public class CsvCreator {
                     FileWriter fw ;
                     List<String> entityData = new ArrayList<>();
                     Items itemList = new Items(getItemDataFromRemoteFile(mdmEntityId));
+                    Map<String, String> entityDataValueMap = new HashMap<>();
+                    entityDataValueMap.put("PRODUCT_ID", productId+",");
+                    entityDataValueMap.put("ENTITY_ID", entityId+",");
+                    entityDataValueMap.put("PARENT_ENTITY_ID", parentEntityId+",");
+                    entityDataValueMap.put("MDM_ENTITY_ID", mdmEntityId+",");
 
 //                  relevant entity data list is taken from corresponding enum class.
                     switch (baseName) {
@@ -77,39 +82,34 @@ public class CsvCreator {
                             entityData = Arrays.asList(CharacteristicValue.getNames(CharacteristicValue.class));
                             break;
                         }
-//                      ToDo : add case to ProductFamily
+                        case "Product Family": {
+                            entityData = Arrays.asList(ProductFamilyValue.getNames(ProductFamilyValue.class));
+                            break;
+                        }
                     }
 
 //                  if file does not exist, headers will be added
                     if (!outFile.exists()) {
                         fw = new FileWriter("src\\Results\\" + baseName + ".csv");
-                        fw.write("PRODUCT_ID ,ENTITY_ID, PARENT_ENTITY_ID,");
-                        for (Element item : itemList.getItemList()) {
-                            String colName = item.getAttribute("name").getValue();
-                            if (entityData.contains(colName)) {
-                                System.out.print(colName + ",");
-                                fw.write(colName + " ,");
-                            }
+                        for (String item : entityData) {
+                            fw.write(item + " ,");
                         }
-                        System.out.println();
                         fw.append("\n");
                     }else {
                         fw = new FileWriter(outFile, true);
                     }
-
-                    fw.append(productId + "," + entityId + "," + parentEntityId + ",");
                     for (Element item : itemList.getItemList()) {
 //                      only required items will be taken from item list
                         if (entityData.contains(item.getAttribute("name").getValue())) {
                             String finalVal = "";
                             if (item.getName().equals("Attribute")) {
-                                finalVal = item.getValue().toString().trim().replace("\n", "") + ",";
+                                finalVal = item.getValue().trim().replace("\n", "") + ",";
                             } else if (item.getName().equals("MultiValueAttribute")) {
                                 List<Element> valueList = item.getChildren();
                                 if (valueList != null) {
                                     String values = "";
                                     for (int i = 0; i < valueList.size(); i++) {
-                                        values += valueList.get(i).getValue().toString().trim().replace("\n", "");
+                                        values += valueList.get(i).getValue().trim().replace("\n", "");
                                         if (valueList.size() - 1 == i) {
                                             break;
                                         }
@@ -121,9 +121,14 @@ public class CsvCreator {
                                     finalVal = " ,";
                                 }
                             }
-                            fw.append(finalVal);
-                            System.out.print(finalVal);
+                            entityDataValueMap.put(item.getAttribute("name").getValue(), finalVal);
                         }
+                    }
+                    for (String item : entityData) {
+                        if(entityDataValueMap.get(item) == null)
+                            fw.write(",");
+                        else
+                            fw.write(entityDataValueMap.get(item));
                     }
                     System.out.println();
                     fw.append("\n");
@@ -360,7 +365,7 @@ enum ActionCodeValue {
 }
 
 enum ProductSpecValue {
-    PRODUCT_NAME, PRODUCT_DESC, VALID_FROM, VALID_TO, IS_PARAMETRIC;
+    PRODUCT_ID , PARENT_ENTITY_ID, PRODUCT_NAME, PRODUCT_DESC, VALID_FROM, VALID_TO, ENTITY_ID, MDM_ENTITY_ID, IS_PARAMETRIC;
 
     public static String[] getNames(Class<? extends Enum<?>> e) {
         return Arrays.stream(e.getEnumConstants()).map(Enum::name).toArray(String[]::new);
@@ -368,7 +373,15 @@ enum ProductSpecValue {
 }
 
 enum CharacteristicValue {
-    CHARACTERISTIC_NAME, IS_MANDATORY, CHARACTERISTIC_VALUE, LOOK_UP_REQUIRED, DISPLAY_POSITION, CHARACTERISTIC_UOM;
+    PRODUCT_ID ,PARENT_ENTITY_ID, ENTITY_ID, CHARACTERISTIC_NAME, IS_MANDATORY, CHARACTERISTIC_VALUE, LOOK_UP_REQUIRED, DISPLAY_POSITION, CHARACTERISTIC_UOM;
+
+    public static String[] getNames(Class<? extends Enum<?>> e) {
+        return Arrays.stream(e.getEnumConstants()).map(Enum::name).toArray(String[]::new);
+    }
+}
+
+enum ProductFamilyValue {
+    PRODUCT_ID ,PARENT_ENTITY_ID, ENTITY_ID;
 
     public static String[] getNames(Class<? extends Enum<?>> e) {
         return Arrays.stream(e.getEnumConstants()).map(Enum::name).toArray(String[]::new);
