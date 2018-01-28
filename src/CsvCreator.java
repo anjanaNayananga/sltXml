@@ -365,7 +365,7 @@ enum ActionCodeValue {
 }
 
 enum ProductSpecValue {
-    PRODUCT_ID , PARENT_ENTITY_ID, PRODUCT_NAME, PRODUCT_DESC, VALID_FROM, VALID_TO, ENTITY_ID, MDM_ENTITY_ID, IS_PARAMETRIC;
+    PRODUCT_ID , ENTITY_ID, PRODUCT_NAME, PRODUCT_DESC, VALID_FROM, VALID_TO, PARENT_ENTITY_ID, MDM_ENTITY_ID, IS_PARAMETRIC;
 
     public static String[] getNames(Class<? extends Enum<?>> e) {
         return Arrays.stream(e.getEnumConstants()).map(Enum::name).toArray(String[]::new);
